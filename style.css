@@ -58,3 +58,12 @@ html, body{
     background-color: orangered ;
     color: white;
 }
+#main>h1{
+    font-size: 75px;
+    font-weight: 100;
+    text-transform: uppercase;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+}
