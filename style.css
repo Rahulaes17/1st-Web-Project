@@ -59,11 +59,94 @@ html, body{
     color: white;
 }
 #main>h1{
-    font-size: 75px;
-    font-weight: 100;
+    font-size: 150px;
+    font-weight: 300;
     text-transform: uppercase;
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%,-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+    object-fit: cover ;
+    object-position: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+h5{
+    font-weight: 700;
+    position: absolute;
+    bottom: 5%;
+    left: 2%;
+    font-size: 17px;
+}
+#symbols{
+    display: flex;
+}
+#ig{
+    position: absolute;
+    bottom: 7%;
+    right: 8%
+}
+#fb{
+    position: absolute;
+    bottom: 7%;
+    right: 2%
+}
+#yt{
+    position: absolute;
+    bottom: 7%;
+    right: 5%
+}
+h6{
+    font-size: 15px;
+    font-weight: 700;
+    position: absolute;
+   bottom: 4%;
+   right: 2%
+}
+#arrow{
+    font-size: 50px;
+    position: absolute;
+    left: 48%;
+    bottom: 0%;
+}
+#center{
+    display: flex;
+}
+#st{
+    padding: 6px;
+    font-size: 18px;
+    border-radius: 100px;
+    background-color: white;
+    position: absolute;
+    top: 62.2%;
+    left: 41%;
+}
+h3{
+    font-weight: 500;
+    padding: 7px;
+    font-size: 20px;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    top: 62%;
+    left: 43%;
 }
